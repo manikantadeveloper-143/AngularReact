@@ -28,7 +28,7 @@ module.exports = {
     new ModuleFederationPlugin({
       library: { type: "module" },
       remotes: {
-        react_remote: "react_remote@http://localhost:3000/remoteEntry.js",
+        react_remote: "react_remote@http://localhost:3001/remoteEntry.js",
       },
 
       shared: share({
