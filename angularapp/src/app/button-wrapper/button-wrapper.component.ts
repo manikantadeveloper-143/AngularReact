@@ -13,7 +13,7 @@ export class ButtonWrapperComponent implements AfterViewInit {
 
   async ngAfterViewInit() {
     const ButtonModule = await loadRemoteModule({
-      remoteEntry: 'http://localhost:3001/remoteEntry.js',
+      remoteEntry: 'http://localhost:3000/remoteEntry.js',
       remoteName: 'react_remote',
       exposedModule: './Button',
     });
